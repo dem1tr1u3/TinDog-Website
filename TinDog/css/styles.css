@@ -1,0 +1,175 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: grey;
+}
+
+/* Heading and Navbar */
+
+.big-heading {
+  font-weight: 900;
+  font-size: 4rem;
+  color: #fff;
+  line-height: 1.5;
+  margin-bottom: 35px;
+}
+
+#title {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+#dog {
+  transform: rotate(25deg);
+  width: 17%;
+  position: absolute;
+  right: 30%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+  font-family: "Ubuntu";
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+.navbaralign {
+    text-align: left;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.dwn-btn {
+  margin: 2% 2% 5%;
+}
+
+#navbarSupportedContent {
+  margin-right: 100px;
+}
+
+/* Sections Color */
+
+.colored-section {
+  background-color:#ff4c68;
+  color: #fff;
+}
+
+.colored-testimonials{
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to action */
+
+.ctabtn {
+  margin: 40px 10px 0;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  padding: 3% 3% 0;
+  margin: 10px 10px;
+}
+
+.footer-icons {
+  margin: 20px 20px;
+  font-size: 20px;
+}
+
+/* Media */
+
+@media (max-width: 1140px) {
+  #dog {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+  #title {
+    text-align: center;
+  }
+}
